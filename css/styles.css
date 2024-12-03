@@ -1,0 +1,79 @@
+:root {
+    --text: #434455;
+    --navy: #2E2F42;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    background-color: var(--white);
+    color: var(--text);
+}
+
+h1, h2, h3 {
+    color: var(--navy);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.25em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+a:hover, a:focus {
+    color: var(--navy);
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+address a {
+    font-style: normal;
+}
+
+.logo {
+    font-family: "Raleway", serif;
+    font-weight: 700;
+}
+
+.service, footer {
+    background-color: var(--navy);
+}
+
+.service h1 {
+    font-size: 3.5em;
+    line-height: 2.5;
+    color: var(--white);
+}
+
+.service button {
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+}
+
+.team {
+    background-color: var(--cloud);
+}
+
+footer p {
+    color: var(--cloud);
+}
