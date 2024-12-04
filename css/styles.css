@@ -39,6 +39,10 @@ button {
     color: #2e2f42;
 }
 
+.address-item {
+    color: #434455;
+}
+
 .nav-item:hover,
 .nav-item:focus,
 .address-item:hover,
