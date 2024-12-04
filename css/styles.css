@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
 }
@@ -30,29 +30,23 @@ button {
     color: #2e2f42;
 }
 
-.address {
-    font-style: normal;
-}
-
-.nav-studio,
-.nav-portfolio,
-.nav-contacts,
-.nav-studio,
-.nav-portfolio,
-.nav-contacts {
+.nav-item,
+.address-item {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
 }
 
-.nav-studio:hover,
-.nav-studio:focus,
-.nav-portfolio:hover,
-.nav-portfolio:focus,
-.nav-contacts:hover,
-.nav-contacts:focus {
+.nav-item:hover,
+.nav-item:focus,
+.address-item:hover,
+.address-item:focus {
     color: #404bbf;
+}
+
+.address {
+    font-style: normal;
 }
 
 .service {
@@ -68,9 +62,10 @@ button {
 }
 
 .service-button {
-    line-height: 1.5;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #ffffff;
@@ -114,8 +109,16 @@ button {
     background-color: #f4f4fd;
 }
 
+.team-item {
+    background-color: #ffffff;
+}
+
 .footer {
     background-color: #2e2f42;
+}
+
+.footer .logo-span {
+    color: #f4f4fd;
 }
 
 .footer-desc {
